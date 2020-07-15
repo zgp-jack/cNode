@@ -1,0 +1,142 @@
+.pageWrap {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.wrap {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.wrap img,
+.wrap .ant-card-body{
+    max-width: 100%;
+}
+#logo {
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+.headerDivider {
+    float: left;
+    margin: 10px 0;
+    height: 44px;
+}
+#nav {
+    float: left;
+    margin-left: 30px;
+    background: none;
+    border: none;
+    line-height: 62px;
+}
+#nav a {
+    color: #fff;
+}
+#nav .ant-menu-item-selected a {
+    color: #1890ff;
+}
+.xsNav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+.main {
+    flex: 1;
+}
+.main .wrap {
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+}
+.indexSider {
+    border-right: 1px solid #ccc;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+#indexMenu {
+    border-right: none;
+}
+#indexMenu li {
+    margin-right: -1px;
+    transition: none;
+    text-align: center;
+    border-right: 3px solid rgba(0,0,0,0);
+}
+#indexMenu li:hover,
+#indexMenu .ant-menu-item-selected{
+    background: #e6f7ff!important;
+    border-right: 3px solid #1890ff;
+}
+#indexMenu li a:hover,
+#indexMenu .ant-menu-item-selected a {
+    color: #1890ff!important;
+}
+#indexXsMenu {
+    display: flex;
+}
+#indexXsMenu li {
+    flex: 1;
+    /*float: none;*/
+    text-align: center;
+}
+#indexXsMenu li a:hover,
+#indexXsMenu .ant-menu-item-selected a {
+    color: #1890ff!important;
+}
+#indexXsMenu li:hover,
+#indexXsMenu .ant-menu-item-selected{
+    background: #e6f7ff!important;
+    border-bottom: 3px solid #1890ff;
+}
+.indexList {
+    padding: 0 10px;
+}
+.indexList p {
+    margin: 0;
+}
+.userAvatar {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto 5px;
+}
+.userInfo {
+    text-align: center;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+.userList {
+    line-height: 32px;
+}
+.userList .userName {
+    margin: 0 10px 0;
+}
+@media all and (max-width: 479px) {
+    .userList .ant-list-item {
+        display: block;
+    }
+}
+
+
+
+/*@media all and (max-width: 767px) {*/
+/*    #indexMenu {*/
+/*        display: flex;*/
+/*        border-bottom: 1px solid #ccc;*/
+/*    }*/
+/*    #indexMenu li {*/
+/*        flex: 1;*/
+/*        margin: 0 0 -1px 0;*/
+/*        border: none!important;*/
+/*        border-bottom: 3px solid rgba(0,0,0,0)!important;*/
+/*    }*/
+/*    #indexMenu li:hover,*/
+/*    #indexMenu .ant-menu-item-selected{*/
+/*        background: none;*/
+/*        border-bottom-color: #1890ff!important;*/
+/*    }*/
+/*    .indexList {*/
+/*        border-left: none;*/
+/*    }*/
+/*}*/
